@@ -39,6 +39,23 @@ This script adds:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### GPIO Pinout
+
+##### Warning! The Pi has 3.3V GPIO, so your pull-up resistor must be connect to 3.3V ONLY! You will fry your Pi if Vcc is connected to 5V.
+
+The pull-up resistor that I use is 1kΩ 1/4W. The white paper says the maximum current is 5mA. According to Ohm’s Law: ```R=3.3/0.005``` <br>
+the resistor should be 660Ω or larger to protect your fan.
+
+| Rpi | Fan | Fan Colour | Note |
+| --- | --- | --- | --- |
+| GPIO 18 | PWM Signal | ***Blue*** |  |
+| GPIO 17 | Tacho | ***Green*** | Connect to GPIO and 3v3 woth a Pull-Up-Resistor! |
+| GND | GND | ***Black*** |  |
+| 5v  | VCC | ***Yellow*** |  |
+| 3v3 | Tacho | ***Green*** | You need at least 660Ohm resistor. |
+
+The Fan-Connector is calld: ```KF2510``` 
+
 ### Installation
 
 RpiFanControl requires that SetupHelper is installed first.
