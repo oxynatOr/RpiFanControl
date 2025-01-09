@@ -24,7 +24,7 @@
 [![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
 <br />
-<h2 align="center">RpiFanControl</h3>
+<h1 align="center">RpiFanControl <sup>WIP</sup></h1>
 
  
 
@@ -79,6 +79,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[wip-shield]: https://img.shields.io/github/contributors/oxynatOr/RpiFanControl.svg?style=for-the-badge
 [contributors-shield]: https://img.shields.io/github/contributors/oxynatOr/RpiFanControl.svg?style=for-the-badge
 [contributors-url]: https://github.com/oxynatOr/RpiFanControl/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/oxynatOr/RpiFanControl.svg?style=for-the-badge
