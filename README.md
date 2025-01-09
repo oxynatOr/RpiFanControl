@@ -88,7 +88,7 @@ See the [open issues](https://github.com/oxynatOr/RpiFanControl/issues) for a fu
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+Distributed under the MIT. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +105,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 [issues-shield]: https://img.shields.io/github/issues/oxynatOr/RpiFanControl.svg?style=for-the-badge
 [issues-url]: https://github.com/oxynatOr/RpiFanControl/issues
 [license-shield]: https://img.shields.io/github/license/oxynatOr/RpiFanControl.svg?style=for-the-badge
-[license-url]: https://github.com/oxynatOr/RpiFanControl/blob/master/LICENSE.txt
+[license-url]: https://github.com/oxynatOr/RpiFanControl/blob/main/LICENSE
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
