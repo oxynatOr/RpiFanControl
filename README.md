@@ -50,6 +50,22 @@ Refer to the SetupHelper ReadMe for instructions and for other install options:
 	https://github.com/kwindrem/SetupHelper
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Manual Installation
+
+
+#### Overlay Instructions
+
+Put it in /u-boot/overlays:<br>
+```sudo cp FileSets/VersionIndependent/pwm.dtbo /u-boot/overlays/pwm.dtbo```
+
+Add a line to /u-boot/config.txt:<br>
+```dtoverlay=pwm,pin=18,func=2```
+<br>
+Note /u-boot typically appears as /boot when the SD card is mounted on a computer
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- ROADMAP -->
 
 ## Roadmap
