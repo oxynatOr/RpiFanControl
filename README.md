@@ -35,7 +35,7 @@ It is not suitable for other GX devices such as CCGX or Cerbo GX.
 The stock RPI Venus distribution there are no Kernel driven PWM
 
 This script adds:
-    pwmchip0 to sysfs
+    ```pwmchip0``` to sysfs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
