@@ -85,6 +85,16 @@ Note /u-boot typically appears as /boot when the SD card is mounted on a compute
 
 <!-- ROADMAP -->
 
+### Fan Modes ###
+
+##### Curve #####
+
+
+
+$\mathrm{PWM} = PWM_{min} + (PWM_{max} - PWM_{min}) * ( 1-e^{-k *(temperature−temp_min)}) $
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Roadmap
 
 - [ ] Curve Mode
