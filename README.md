@@ -98,7 +98,7 @@ $\mathrm{PWM} = PWM_{min} + (PWM_{max} - PWM_{min}) * ( 1-e^{-k *(temperature−
 
 - [ ] Curve Mode
 - [ ] UserMode
-- [\] PID Controller (Proportional-Integral-Derivative) (like in ESP-Home)
+- [ ] PID Controller (Proportional-Integral-Derivative) (like in ESP-Home)
 
 See the [open issues](https://github.com/oxynatOr/RpiFanControl/issues) for a full list of proposed features (and known issues).
 
