@@ -87,9 +87,8 @@ Note /u-boot typically appears as /boot when the SD card is mounted on a compute
 
 ### Fan Modes ###
 
+
 ##### Curve #####
-
-
 
 $\mathrm{PWM} = PWM_{min} + (PWM_{max} - PWM_{min}) * ( 1-e^{-k *(temperature−temp_min)}) $
 
@@ -99,7 +98,7 @@ $\mathrm{PWM} = PWM_{min} + (PWM_{max} - PWM_{min}) * ( 1-e^{-k *(temperature−
 
 - [ ] Curve Mode
 - [ ] UserMode
-- [ ] PID Controller (Proportional-Integral-Derivative)
+- [\] PID Controller (Proportional-Integral-Derivative) (like in ESP-Home)
 
 See the [open issues](https://github.com/oxynatOr/RpiFanControl/issues) for a full list of proposed features (and known issues).
 
