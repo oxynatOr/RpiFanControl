@@ -95,7 +95,7 @@ $\mathrm{PWM} = PWM_{min} + (PWM_{max} - PWM_{min}) * ( 1-e^{-k *(temperature−
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
-
+- [ ] Setup
 - [ ] Curve Mode
 - [ ] UserMode
 - [ ] PID Controller (Proportional-Integral-Derivative) (like in ESP-Home)
